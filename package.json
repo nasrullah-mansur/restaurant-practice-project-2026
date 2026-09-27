@@ -14,7 +14,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "@types/json-server": "^0.14.8",
+    "@types/toastify-js": "^1.12.4",
     "axios": "^1.20.0",
-    "tailwindcss": "^4.3.3"
+    "json-server": "^1.0.0-beta.15",
+    "tailwindcss": "^4.3.3",
+    "toastify-js": "^1.12.0"
   }
 }

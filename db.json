@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "name": "Nora Mcguire",
+      "price": "549",
+      "ratting": "3",
+      "image": "Fry_Nurger.jpg",
+      "id": "LZbUhJvWcxY"
+    },
+    {
+      "name": "Elton Rowland",
+      "price": "17",
+      "ratting": "2",
+      "image": "Chicken_Fry.jpg",
+      "id": "EVfJmwAqmNo"
+    },
+    {
+      "name": "Lucas Abbott",
+      "price": "216",
+      "ratting": "4",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "4A13pbNR26M"
+    },
+    {
+      "name": "Lisandra Sargent",
+      "price": "371",
+      "ratting": "1",
+      "image": "Fry_Nurger.jpg",
+      "id": "Cy_XkNu4Tuc"
+    },
+    {
+      "name": "Edan Cervantes",
+      "price": "107",
+      "ratting": "5",
+      "image": "Seekh_Kebab.jpg",
+      "id": "nsWgfGDiZ2g"
+    },
+    {
+      "name": "Acton Harper",
+      "price": "584",
+      "ratting": "3",
+      "image": "Chicken_Sandwich.jpg",
+      "id": "3GPu4UCk2EU"
+    },
+    {
+      "name": "Kevin Benton",
+      "price": "21",
+      "ratting": "1",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "uhzB-zyqi14"
+    },
+    {
+      "name": "Karen Jennings",
+      "price": "489",
+      "ratting": "5",
+      "image": "Chicken_Sandwich.jpg",
+      "id": "6vxftPb7uc0"
+    },
+    {
+      "name": "Whitney Larson",
+      "price": "373",
+      "ratting": "1",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "4KJJHayrIJ4"
+    },
+    {
+      "name": "Andrew Sutton",
+      "price": "381",
+      "ratting": "1",
+      "image": "Pasta.jpg",
+      "id": "0R5atwg2iCI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
