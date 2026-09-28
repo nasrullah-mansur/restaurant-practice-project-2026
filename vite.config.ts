@@ -5,4 +5,10 @@ export default defineConfig({
     plugins: [
         tailwindcss(),
     ],
+
+    server: {
+        watch: {
+            ignored: ["**/db.json"],
+        },
+    },
 })

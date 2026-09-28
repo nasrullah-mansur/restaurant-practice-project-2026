@@ -61,59 +61,176 @@
 
 
     <main class="flex-1">
+        <!-- Add Product Section -->
+        <section class="min-h-screen bg-gray-50 py-14 sm:py-20">
+            <div class="mx-auto max-w-3xl px-4 sm:px-6">
+
+                <!-- Section Header -->
+                <div class="mb-8">
 
 
+                    <h1 class="mt-2 text-center text-3xl font-bold text-gray-900">
+                        Add New Product
+                    </h1>
 
-        <!-- Product list -->
+                    <div class="flex justify-center py-6">
+                        <a href="/dashboard.html"
+                            class="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-gray-800 hover:shadow-md active:scale-[0.98]">
 
 
-        <div class="mb-8">
+                            Product List
+                        </a>
+                    </div>
+                </div>
 
+                <!-- Form Card -->
+                <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
 
-            <h1 class="mt-2 text-center text-3xl font-bold text-gray-900">
-                Our Product List
-            </h1>
+                    <form id="add_product_form" action="#" method="post">
 
-            <div class="flex justify-center py-6">
-                <a href="/create-product.html"
-                    class="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-gray-800 hover:shadow-md active:scale-[0.98]">
-                    <!-- Plus Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
-                        <path d="M5 12h14" />
-                        <path d="M12 5v14" />
-                    </svg>
+                        <div class="grid gap-6 sm:grid-cols-2">
 
-                    Create Product
-                </a>
+                            <!-- Product Name -->
+                            <div class="sm:col-span-2">
+                                <label for="product_name" class="mb-2 block text-sm font-semibold text-gray-800">
+                                    Product Name
+                                    <span class="text-red-500">*</span>
+                                </label>
+
+                                <input type="text" id="product_name" name="name" placeholder="e.g. Chicken Burger"
+                                    class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-gray-900 outline-none transition placeholder:text-gray-400 focus:border-[#F0A500] focus:ring-2 focus:ring-[#F0A500]/20" />
+                            </div>
+
+                            <!-- Price -->
+                            <div>
+                                <label for="price" class="mb-2 block text-sm font-semibold text-gray-800">
+                                    Price
+                                    <span class="text-red-500">*</span>
+                                </label>
+
+                                <div class="relative">
+                                    <span
+                                        class="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-medium text-gray-500">
+                                        $
+                                    </span>
+
+                                    <input type="number" id="price" name="price" min="0" step="0.01" placeholder="0.00"
+                                        class="w-full rounded-lg border border-gray-300 bg-white py-3 pl-8 pr-4 text-sm text-gray-900 outline-none transition placeholder:text-gray-400 focus:border-[#F0A500] focus:ring-2 focus:ring-[#F0A500]/20" />
+                                </div>
+                            </div>
+
+                            <!-- Rating -->
+                            <div>
+                                <label for="ratting" class="mb-2 block text-sm font-semibold text-gray-800">
+                                    Rating
+                                    <span class="text-red-500">*</span>
+                                </label>
+
+                                <select id="ratting" name="ratting"
+                                    class="w-full cursor-pointer rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-gray-900 outline-none transition focus:border-[#F0A500] focus:ring-2 focus:ring-[#F0A500]/20">
+                                    <option value="" selected disabled>
+                                        Select rating
+                                    </option>
+
+                                    <option value="1">
+                                        ★☆☆☆☆ - 1 Star
+                                    </option>
+
+                                    <option value="2">
+                                        ★★☆☆☆ - 2 Stars
+                                    </option>
+
+                                    <option value="3">
+                                        ★★★☆☆ - 3 Stars
+                                    </option>
+
+                                    <option value="4">
+                                        ★★★★☆ - 4 Stars
+                                    </option>
+
+                                    <option value="5">
+                                        ★★★★★ - 5 Stars
+                                    </option>
+                                </select>
+                            </div>
+
+                            <!-- Product Image -->
+                            <div class="sm:col-span-2">
+                                <label for="image" class="mb-2 block text-sm font-semibold text-gray-800">
+                                    Product Image
+                                    <span class="text-red-500">*</span>
+                                </label>
+
+                                <select id="image" name="image"
+                                    class="w-full cursor-pointer rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm text-gray-900 outline-none transition focus:border-[#F0A500] focus:ring-2 focus:ring-[#F0A500]/20">
+                                    <option value="" selected disabled>
+                                        Select a product image
+                                    </option>
+
+                                    <option value="Chicken_Burger.jpg">
+                                        Chicken Burger
+                                    </option>
+
+                                    <option value="Chicken_Cheese_Pizza.jpg">
+                                        Chicken Cheese Pizza
+                                    </option>
+
+                                    <option value="Chicken_Fry.jpg">
+                                        Chicken Fry
+                                    </option>
+
+                                    <option value="Chicken_Sandwich.jpg">
+                                        Chicken Sandwich
+                                    </option>
+
+                                    <option value="Fry_Nurger.jpg">
+                                        Fry Nurger
+                                    </option>
+
+                                    <option value="Grill_Chicken.jpg">
+                                        Grill Chicken
+                                    </option>
+
+                                    <option value="Pasta.jpg">
+                                        Pasta
+                                    </option>
+
+                                    <option value="Seekh_Kebab.jpg">
+                                        Seekh Kebab
+                                    </option>
+                                </select>
+
+                                <!-- Helper Text -->
+                                <p class="mt-2 text-xs leading-5 text-gray-500">
+                                    Select an image from the available food images.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- Form Actions -->
+                        <div class="mt-8 flex items-center justify-end gap-3 border-t border-gray-100 pt-6">
+
+                            <button type="reset"
+                                class="cursor-pointer rounded-lg border border-gray-300 bg-white px-5 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50">
+                                Clear
+                            </button>
+
+                            <button type="submit"
+                                class="cursor-pointer rounded-lg bg-[#F0A500] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#d99400]">
+                                Add Product
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
             </div>
-
-
-        </div>
-
-        <div
-            class="overflow-x-auto container mx-auto my-[50px] max-w-[800px] rounded-lg border border-gray-200 bg-white">
-            <table class="w-full text-left text-sm">
-                <thead class="border-b border-gray-200 bg-gray-50 text-xs font-semibold uppercase text-gray-600">
-                    <tr>
-                        <th class="px-5 py-3">SL</th>
-                        <th class="px-5 py-3">Image</th>
-                        <th class="px-5 py-3">Title</th>
-                        <th class="px-5 py-3">Price</th>
-                        <th class="px-5 py-3">Rating</th>
-                        <th class="px-5 py-3 text-right">Action</th>
-                    </tr>
-                </thead>
-
-                <tbody id="table_body" class="divide-y divide-gray-100">
-
-                    <!-- Keep this empty -->
+        </section>
 
 
 
-                </tbody>
-            </table>
-        </div>
 
 
     </main>

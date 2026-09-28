@@ -69,6 +69,90 @@
       "ratting": "1",
       "image": "Pasta.jpg",
       "id": "0R5atwg2iCI"
+    },
+    {
+      "name": "Hiram Allison",
+      "price": "438",
+      "ratting": "5",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "xbGqn0CAgqM"
+    },
+    {
+      "name": "Noelle Duke",
+      "price": "304",
+      "ratting": "2",
+      "image": "Chicken_Sandwich.jpg",
+      "id": "oteIALIt0tg"
+    },
+    {
+      "name": "Mikayla Whitley",
+      "price": "995",
+      "ratting": "2",
+      "image": "Grill_Chicken.jpg",
+      "id": "mOpJGgRerq0"
+    },
+    {
+      "name": "Carson Burnett",
+      "price": "989",
+      "ratting": "1",
+      "image": "Fry_Nurger.jpg",
+      "id": "4Rtg9NXzsXA"
+    },
+    {
+      "name": "Ralph Talley",
+      "price": "997",
+      "ratting": "1",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "l1WEfkAPl9k"
+    },
+    {
+      "name": "Fletcher Palmer",
+      "price": "313",
+      "ratting": "1",
+      "image": "Grill_Chicken.jpg",
+      "id": "oS0ZUwX7X3k"
+    },
+    {
+      "name": "Dawn Love",
+      "price": "599",
+      "ratting": "2",
+      "image": "Chicken_Fry.jpg",
+      "id": "dAv6w89nhoQ"
+    },
+    {
+      "name": "Adara Santana",
+      "price": "354",
+      "ratting": "5",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "AQtK4xL2vbc"
+    },
+    {
+      "name": "Amela Parsons",
+      "price": "860",
+      "ratting": "2",
+      "image": "Chicken_Burger.jpg",
+      "id": "gBzqrknA-2M"
+    },
+    {
+      "name": "Aurora Reynolds",
+      "price": "800",
+      "ratting": "5",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "ruAvFITGcSg"
+    },
+    {
+      "name": "Theodore Roberts",
+      "price": "122",
+      "ratting": "3",
+      "image": "Seekh_Kebab.jpg",
+      "id": "EC4IR28iJ3w"
+    },
+    {
+      "name": "Knox Kerr",
+      "price": "995",
+      "ratting": "3",
+      "image": "Seekh_Kebab.jpg",
+      "id": "s-NDIfn5z3Q"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
