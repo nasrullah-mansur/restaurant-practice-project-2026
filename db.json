@@ -1,101 +1,10 @@
 {
   "products": [
     {
-      "name": "Nora Mcguire",
-      "price": "549",
-      "ratting": "3",
-      "image": "Fry_Nurger.jpg",
-      "id": "LZbUhJvWcxY"
-    },
-    {
-      "name": "Elton Rowland",
-      "price": "17",
-      "ratting": "2",
-      "image": "Chicken_Fry.jpg",
-      "id": "EVfJmwAqmNo"
-    },
-    {
-      "name": "Lucas Abbott",
-      "price": "216",
-      "ratting": "4",
-      "image": "Chicken_Cheese_Pizza.jpg",
-      "id": "4A13pbNR26M"
-    },
-    {
-      "name": "Lisandra Sargent",
-      "price": "371",
+      "name": "asdfasdf",
+      "price": "1000",
       "ratting": "1",
-      "image": "Fry_Nurger.jpg",
-      "id": "Cy_XkNu4Tuc"
-    },
-    {
-      "name": "Edan Cervantes",
-      "price": "107",
-      "ratting": "5",
-      "image": "Seekh_Kebab.jpg",
-      "id": "nsWgfGDiZ2g"
-    },
-    {
-      "name": "Acton Harper",
-      "price": "584",
-      "ratting": "3",
-      "image": "Chicken_Sandwich.jpg",
-      "id": "3GPu4UCk2EU"
-    },
-    {
-      "name": "Kevin Benton",
-      "price": "21",
-      "ratting": "1",
-      "image": "Chicken_Cheese_Pizza.jpg",
-      "id": "uhzB-zyqi14"
-    },
-    {
-      "name": "Karen Jennings",
-      "price": "489",
-      "ratting": "5",
-      "image": "Chicken_Sandwich.jpg",
-      "id": "6vxftPb7uc0"
-    },
-    {
-      "name": "Whitney Larson",
-      "price": "373",
-      "ratting": "1",
-      "image": "Chicken_Cheese_Pizza.jpg",
-      "id": "4KJJHayrIJ4"
-    },
-    {
-      "name": "Andrew Sutton",
-      "price": "381",
-      "ratting": "1",
-      "image": "Pasta.jpg",
-      "id": "0R5atwg2iCI"
-    },
-    {
-      "name": "Hiram Allison",
-      "price": "438",
-      "ratting": "5",
-      "image": "Chicken_Cheese_Pizza.jpg",
-      "id": "xbGqn0CAgqM"
-    },
-    {
-      "name": "Noelle Duke",
-      "price": "304",
-      "ratting": "2",
-      "image": "Chicken_Sandwich.jpg",
-      "id": "oteIALIt0tg"
-    },
-    {
-      "name": "Mikayla Whitley",
-      "price": "995",
-      "ratting": "2",
-      "image": "Grill_Chicken.jpg",
-      "id": "mOpJGgRerq0"
-    },
-    {
-      "name": "Carson Burnett",
-      "price": "989",
-      "ratting": "1",
-      "image": "Fry_Nurger.jpg",
+      "image": "Chicken_Burger.jpg",
       "id": "4Rtg9NXzsXA"
     },
     {
@@ -104,13 +13,6 @@
       "ratting": "1",
       "image": "Chicken_Cheese_Pizza.jpg",
       "id": "l1WEfkAPl9k"
-    },
-    {
-      "name": "Fletcher Palmer",
-      "price": "313",
-      "ratting": "1",
-      "image": "Grill_Chicken.jpg",
-      "id": "oS0ZUwX7X3k"
     },
     {
       "name": "Dawn Love",
@@ -127,32 +29,46 @@
       "id": "AQtK4xL2vbc"
     },
     {
-      "name": "Amela Parsons",
-      "price": "860",
-      "ratting": "2",
-      "image": "Chicken_Burger.jpg",
-      "id": "gBzqrknA-2M"
-    },
-    {
-      "name": "Aurora Reynolds",
-      "price": "800",
+      "name": "this is seser ta",
+      "price": "100",
       "ratting": "5",
-      "image": "Chicken_Cheese_Pizza.jpg",
-      "id": "ruAvFITGcSg"
-    },
-    {
-      "name": "Theodore Roberts",
-      "price": "122",
-      "ratting": "3",
-      "image": "Seekh_Kebab.jpg",
-      "id": "EC4IR28iJ3w"
-    },
-    {
-      "name": "Knox Kerr",
-      "price": "995",
-      "ratting": "3",
       "image": "Seekh_Kebab.jpg",
       "id": "s-NDIfn5z3Q"
+    },
+    {
+      "name": "Gray Velasquez",
+      "price": "973",
+      "ratting": "4",
+      "image": "Chicken_Cheese_Pizza.jpg",
+      "id": "vk7bMWfSSk0"
+    },
+    {
+      "name": "Cyrus Andrews",
+      "price": "391",
+      "ratting": "5",
+      "image": "Chicken_Fry.jpg",
+      "id": "x-zgnwPY8V8"
+    },
+    {
+      "name": "Duncan Rodriguez",
+      "price": "115",
+      "ratting": "4",
+      "image": "Chicken_Fry.jpg",
+      "id": "vx8QzgK7oQM"
+    },
+    {
+      "name": "Demetrius Mccormick",
+      "price": "646",
+      "ratting": "2",
+      "image": "Chicken_Burger.jpg",
+      "id": "xvIRYoK9l70"
+    },
+    {
+      "name": "Madison Lawson",
+      "price": "86",
+      "ratting": "5",
+      "image": "Grill_Chicken.jpg",
+      "id": "JfP2sOA6NIY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
