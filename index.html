@@ -40,7 +40,7 @@
 
         <!-- Cart -->
         <button type="button"
-          class="relative flex size-11 cursor-pointer items-center justify-center rounded-lg bg-[#F0A500] text-white transition-colors hover:bg-[#d99400]"
+          class="relative cart-toggler flex size-11 cursor-pointer items-center justify-center rounded-lg bg-[#F0A500] text-white transition-colors hover:bg-[#d99400]"
           aria-label="Shopping Cart">
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -50,15 +50,50 @@
           </svg>
 
           <!-- Cart Count -->
-          <span
+          <span id="cart_total_count"
             class="absolute -right-2 -top-2 flex size-5 items-center justify-center rounded-full bg-gray-900 text-[10px] font-bold text-white">
-            3
+            0
           </span>
         </button>
 
       </div>
     </div>
   </header>
+
+  <div id="cart_section" class="bg-gray-300 hidden fixed top-0 left-0 w-full h-screen z-99">
+
+    <button class="absolute cart-toggler top-2 right-4 cursor-pointer z-99 text-3xl">X</button>
+
+    <div class="mx-auto mt-[50px] max-w-4xl rounded-xl border border-gray-200 bg-white">
+
+      <!-- Header -->
+      <div class="border-b border-gray-200 px-5 py-4">
+        <h2 class="text-lg font-semibold text-gray-900">
+          Order Cart
+        </h2>
+      </div>
+
+      <!-- Cart Items -->
+      <div id="cart_container" class="divide-y h-[60vh] overflow-y-scroll divide-gray-100">
+
+
+
+
+      </div>
+
+      <!-- Footer -->
+      <div class="flex items-center justify-end gap-8 border-t border-gray-200 bg-gray-50 px-5 py-4">
+        <span class="text-sm font-medium text-gray-600">
+          Subtotal
+        </span>
+
+        <span id="sub_total" class="text-xl font-semibold text-gray-900">
+          $90.00
+        </span>
+      </div>
+
+    </div>
+  </div>
 
 
   <!-- Hero Section -->

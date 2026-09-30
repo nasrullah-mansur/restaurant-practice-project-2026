@@ -264,7 +264,8 @@ function makeProductHtmlCode(arr: IProduct[]) {
 
                         <!-- Button -->
                         <button type="button"
-                        class="mt-5 w-full cursor-pointer rounded-lg bg-[#F0A500] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#d99400]">
+                        data-id="${item.id}"
+                        class="mt-5 w-full add-to-cart cursor-pointer rounded-lg bg-[#F0A500] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#d99400]">
                         Add to Cart
                         </button>
                     </div>
